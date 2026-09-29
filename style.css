@@ -1,0 +1,59 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card .btn { 
+    width: 100%;
+}
+
+
+/*Breakpoint tablet*/
+@media (min-width: 768px) {
+    .card-img-top{
+        height: 220px;
+    }
+}
+
+/*Breakpoint Desktop*/
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 220px;
+    }
+}
+
+/*Breakpoint Layar Besar*/
+@media (min-width: 1200px) {
+    .card-img-top {
+        height: 220px;
+    }
+}
